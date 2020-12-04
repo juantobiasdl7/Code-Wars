@@ -33,7 +33,7 @@ you'll have to capitalize each word, check out how contractions are expected to 
 
 Your task is to convert strings to how they would be written by Jaden Smith. 
 The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
-*/
+
 
 String.prototype.toJadenCase = function () {
     let str = this;
@@ -52,3 +52,4 @@ String.prototype.toJadenCase = function () {
  let Jaden = str.toJadenCase();
 
  console.log(Jaden);
+ */
